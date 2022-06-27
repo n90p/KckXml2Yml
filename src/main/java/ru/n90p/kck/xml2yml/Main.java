@@ -21,7 +21,7 @@ public final class Main {
     private static void convertFile(File inputFile, File outputFile) throws IOException {
         FileParser parser = new FileParser();
 
-        ResponseFsaType resp = parser.readFromXmlFile(inputFile, ResponseFsaType.class);
-        parser.writeAsYmlToFile(outputFile, resp);
+        ResponseFsaType root = parser.readAsXml(inputFile, ResponseFsaType.class);
+        parser.writeAsYml(outputFile, root);
     }
 }

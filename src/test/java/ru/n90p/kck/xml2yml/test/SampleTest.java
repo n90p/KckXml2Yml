@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class SampleTest {
     @Test
-    public void test() throws Exception {
+    public void test_converterWorksAtAll() throws Exception {
         File inputFile = new File("sample.xml");
         File outputFile = new File("output.yml");
 
@@ -22,7 +22,7 @@ public class SampleTest {
     private void convertXmlToYml(File inputXml, File outputYml) throws IOException {
         FileParser parser = new FileParser();
 
-        ResponseFsaType resp = parser.readFromXmlFile(inputXml, ResponseFsaType.class);
-        parser.writeAsYmlToFile(outputYml, resp);
+        ResponseFsaType root = parser.readAsXml(inputXml, ResponseFsaType.class);
+        parser.writeAsYml(outputYml, root);
     }
 }
