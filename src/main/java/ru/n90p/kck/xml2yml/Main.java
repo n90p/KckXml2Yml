@@ -19,9 +19,9 @@ public final class Main {
     }
 
     private static void convertFile(File inputFile, File outputFile) throws IOException {
-        FileUtils fileUtils = new FileUtils();
+        FileParser parser = new FileParser();
 
-        ResponseFsaType resp = fileUtils.readFromXmlFile(inputFile, ResponseFsaType.class);
-        fileUtils.writeAsYmlToFile(outputFile, resp);
+        ResponseFsaType resp = parser.readFromXmlFile(inputFile, ResponseFsaType.class);
+        parser.writeAsYmlToFile(outputFile, resp);
     }
 }

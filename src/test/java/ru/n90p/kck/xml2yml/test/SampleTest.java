@@ -20,9 +20,9 @@ public class SampleTest {
     }
 
     private void convertXmlToYml(File inputXml, File outputYml) throws IOException {
-        FileUtils fileUtils = new FileUtils();
+        FileParser parser = new FileParser();
 
-        ResponseFsaType resp = fileUtils.readFromXmlFile(inputXml, ResponseFsaType.class);
-        fileUtils.writeAsYmlToFile(outputYml, resp);
+        ResponseFsaType resp = parser.readFromXmlFile(inputXml, ResponseFsaType.class);
+        parser.writeAsYmlToFile(outputYml, resp);
     }
 }

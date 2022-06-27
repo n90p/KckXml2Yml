@@ -8,7 +8,7 @@ import com.fasterxml.jackson.dataformat.yaml.*;
 import ru.n90p.kck.xml2yml.annotation.*;
 import ru.n90p.kck.xml2yml.jackson.*;
 
-public class FileUtils {
+public class FileParser {
     public <T> T readFromXmlFile(File xmlFile, Class<T> type) throws IOException {
         try (Reader reader = new FileReader(xmlFile)) {
             ObjectMapper xmlMapper = new XmlMapper();
