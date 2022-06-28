@@ -34,7 +34,7 @@ public class FileParser {
                 .build();
 
         ObjectMapper mapper = new ObjectMapper(yamlFactory);
-        mapper.setAnnotationIntrospector(new JacksonAnnotationIgnoringIntrospector(YamlWriteIgnore.class));
+        mapper.setAnnotationIntrospector(new JacksonAnnotationIgnoringIntrospector(YamlIgnore.class));
 
         SequenceWriter sw = mapper.writerWithDefaultPrettyPrinter().writeValues(writer);
         sw.write(root);

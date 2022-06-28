@@ -45,7 +45,7 @@ public class Product {
     @JacksonXmlProperty(localName = "PlaceMark", namespace = tns)
     private String placeMark;
 
-    @YamlWriteIgnore
+    @YamlIgnore
     @JacksonXmlProperty(localName = "TechRegs", namespace = tns)
     private TechRegs techRegs;
 }
