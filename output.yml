@@ -1,0 +1,94 @@
+rdcTr:
+  type: TrRf
+  requisites:
+    status: Active
+    section: Tr
+    number: Д-RU.СС10.В.00001
+    dateReg: 2015-12-20T00:00:00
+    dateExpiry: 2018-12-18T00:00:00
+    noExpiry: null
+    baseDeclaration:
+      documents: Заявление № 1/15 от 20.12.2015 Декларация о соответствии Копия свидетельства о регистрации ОГРН
+      schema: 1д
+      base:
+        string: "1. Протокол испытаний № 1 от 14.12.2015, выдан Испытательной лабораторией «Табак лаборатория-Тест» Закрытого акционерного общества «Табак», № POCC RU.0001.22АА11"
+      laboratory:
+        numberReg: POCC RU.0001.22АА11
+        name: Испытательная лаборатория «Табак лаборатория-Тест»
+        dateReg: 2014-10-04T00:00:00
+        dateExpiry: 2018-10-04T00:00:00
+        document: null
+        info: null
+    discontinued: null
+  applicant:
+    applicantType: UL
+    declarantType: Manufacturer
+  applicantUl:
+    organForm: Закрытое акционерное общество
+    fullName: Закрытое акционерное общество «Табак»
+    shortName: null
+    head: Табаков Валентин Семенович
+    headPost: Руководителя
+    headText: Табакова Валентина Семеновича
+    address:
+      string: "190000, РОССИЯ, Ленинградская область, Ломоносовский район, производственная зона \"Горелово\", квартал 1, Волхонское шоссе, 1"
+    addressActual: "190000, РОССИЯ, Ленинградская область, Ломоносовский район, производственная зона \"Горелово\", квартал 1, Волхонское шоссе, 1"
+    phone: 7(812)7000000
+    fax: 7(812)7000001
+    email: TabakRU@mail.ru
+    organ: null
+    date: null
+    ogrn: 1111111111111
+    inn: 1110001111
+    regInfo: null
+    contract: null
+  applicantFl: null
+  manufacturer:
+    type: Um
+    manufacturerUl:
+      organForm: Закрытое акционерное общество
+      fullName: Закрытое акционерное общество «Табак»
+      address:
+        string: "190000, РОССИЯ, Ленинградская область, Ломоносовский район, производственная зона \"Горелово\", квартал 1, Волхонское шоссе, 1"
+      addressActual: "190000, РОССИЯ, Ленинградская область, Ломоносовский район, производственная зона \"Горелово\", квартал 1, Волхонское шоссе, 1"
+      phone: 7(812)7000000
+      fax: 7(812)7000001
+      email: TabakRU@mail.ru
+      organ: null
+      date: null
+      ogrn: 1111111111111
+      inn: 1110001111
+    manufacturerAl: null
+    manufacturerFl: null
+  product:
+    declareType: Series
+    dcOriginType: Domestic
+    name: Сигареты с фильтром "PR"
+    productInfo: "смола: 6 мг/сиг; никотин: 0,5 мг/сиг; СО: 7 мг/сиг"
+    okp: 919340
+    okpdText: null
+    standart: null
+    sizeNumber: 100000 пачек
+    detailsShippingDocumentation: null
+    contractInfo: null
+    info: "Приказ Министерства здравоохранения и социального развития Российской Федерации от 05 Мая 2012 г. N 490н \"Об утверждении предупредительных надписей о вреде курения, сопровождаемых рисунками\""
+    placeMark: null
+  declareAddInfo: null
+  certificationOrgan:
+    fullName: Орган по сертификации продукции и услуг Общества с ограниченной ответственностью "Тест"
+    mumber: РОСС RU.0001.10СП00
+    dateReg: 2014-10-10T00:00:00
+    organ: Росаккредитация
+    head: Петров Иван Сидорович
+    addressLegal: "190000, Россия, город Санкт-Петербург, ул. 10-ая Красноармейская, дом 100, Литер А"
+    address: "190000, Россия, город Санкт-Петербург, ул. 10-ая Красноармейская, дом 100, Литер А"
+    phone: 7(812)3000000
+    fax: 7(812)3000001
+    email: StPt-Test@yandex.ru
+    ogrn: null
+    experts:
+      surname: Медведев
+      name: Михаил
+      patronymic: Александрович
+  applicantAl: null
+  applicantAu: null

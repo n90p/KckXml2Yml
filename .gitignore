@@ -30,6 +30,3 @@ buildNumber.properties
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-
-# KCK
-output.yml
